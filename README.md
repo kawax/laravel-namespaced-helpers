@@ -1,5 +1,8 @@
 # Laravel Namespaced helpers
 
+[![Build Status](https://travis-ci.com/kawax/laravel-namespaced-helpers.svg?branch=master)](https://travis-ci.com/kawax/laravel-namespaced-helpers)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4e97eb5eceb1eed02621/maintainability)](https://codeclimate.com/github/kawax/laravel-namespaced-helpers/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4e97eb5eceb1eed02621/test_coverage)](https://codeclimate.com/github/kawax/laravel-namespaced-helpers/test_coverage)
 
 ## Requirements
 - PHP >= 7.2
