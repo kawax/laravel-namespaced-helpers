@@ -1,0 +1,32 @@
+{
+    "name": "revolution/laravel-namespaced-helpers",
+    "description": "Laravel Namespaced helpers",
+    "keywords": [
+        "laravel",
+        "helpers"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2||^8.0",
+        "illuminate/support": "^6.0||^7.0||^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0||^5.0||^6.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kawax",
+            "email": "kawaxbiz@gmail.com"
+        }
+    ]
+}
