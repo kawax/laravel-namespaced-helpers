@@ -5,6 +5,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/4e97eb5eceb1eed02621/maintainability)](https://codeclimate.com/github/kawax/laravel-namespaced-helpers/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4e97eb5eceb1eed02621/test_coverage)](https://codeclimate.com/github/kawax/laravel-namespaced-helpers/test_coverage)
 
+Another way to avoid `env()` conflicts.
+
 ## Requirements
 - PHP >= 7.2
 - Laravel >= 6.0
