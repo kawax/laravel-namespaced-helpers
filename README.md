@@ -22,6 +22,8 @@ composer require revolution/laravel-namespaced-helpers
 ```
 
 ## Usage
+
+### env()
 In config files,  
 add `use function Revolution\Illuminate\Support\env;`  
 This `env()` is not global.
