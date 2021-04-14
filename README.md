@@ -38,8 +38,32 @@ return [
 ];
 ```
 
-## Contributing
-We only have `env()` at the moment, so if you want to add other helpers, please PR me.
+### dispatch_now()
+
+```php
+<?php
+
+use function Revolution\Illuminate\Support\dispatch_now;
+
+$bar = dispatch_now(new FooJob());
+```
+
+### DispatchNow trait
+```php
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Revolution\Illuminate\Support\DispatchNow;
+
+class FooJob implements ShouldQueue
+{
+    use DispatchNow;
+}
+```
+
+```php
+$bar = FooJob::dispatchNowAndReturn();
+```
+
+If `dispatchNow()` is removed, add `dispatchNow()` as well.
 
 ## LICENSE
 MIT  
