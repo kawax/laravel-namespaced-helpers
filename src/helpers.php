@@ -2,6 +2,7 @@
 
 namespace Revolution\Illuminate\Support;
 
+use Illuminate\Container\Container;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Env;
 
@@ -15,7 +16,7 @@ use Illuminate\Support\Env;
  */
 function dispatch_now($job, $handler = null)
 {
-    return app(Dispatcher::class)->dispatchNow($job, $handler);
+    return Container::getInstance()->make(Dispatcher::class)->dispatchNow($job, $handler);
 }
 
 /**

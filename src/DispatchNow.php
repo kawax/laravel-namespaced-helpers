@@ -2,6 +2,7 @@
 
 namespace Revolution\Illuminate\Support;
 
+use Illuminate\Container\Container;
 use Illuminate\Contracts\Bus\Dispatcher;
 
 trait DispatchNow
@@ -13,6 +14,6 @@ trait DispatchNow
      */
     public static function dispatchNowAndReturn()
     {
-        return app(Dispatcher::class)->dispatchNow(new static(...func_get_args()));
+        return Container::getInstance()->make(Dispatcher::class)->dispatchNow(new static(...func_get_args()));
     }
 }
