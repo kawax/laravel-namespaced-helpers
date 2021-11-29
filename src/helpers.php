@@ -11,7 +11,6 @@ use Illuminate\Support\Env;
  *
  * @param  mixed  $job
  * @param  mixed  $handler
- *
  * @return mixed
  */
 function dispatch_now($job, $handler = null)
@@ -24,7 +23,6 @@ function dispatch_now($job, $handler = null)
  *
  * @param  string  $key
  * @param  mixed  $default
- *
  * @return mixed
  */
 function env($key, $default = null)
