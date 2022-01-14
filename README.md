@@ -7,7 +7,7 @@
 Another way to avoid `env()` conflicts.
 
 ## Requirements
-- PHP >= 7.3
+- PHP >= 7.4
 - Laravel >= 6.0
 
 ## Versioning
