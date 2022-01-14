@@ -18,6 +18,7 @@ jobs:
           php-version: 8.1
           extensions: mbstring
           coverage: xdebug
+      - name: Install Composer dependencies
         run: composer install --no-progress --optimize-autoloader
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v2.7.5
