@@ -7,8 +7,8 @@
 Another way to avoid `env()` conflicts.
 
 ## Requirements
-- PHP >= 7.4
-- Laravel >= 6.0
+- PHP >= 8.1
+- Laravel >= 10.0
 
 ## Versioning
 - Basic : semver
@@ -59,10 +59,8 @@ class FooJob implements ShouldQueue
 ```
 
 ```php
-$bar = FooJob::dispatchNowAndReturn();
+$bar = FooJob::dispatchNow();
 ```
-
-If `dispatchNow()` is removed, add `dispatchNow()` as well.
 
 ## LICENSE
 MIT  

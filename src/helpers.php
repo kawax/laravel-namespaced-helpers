@@ -10,10 +10,10 @@ use Illuminate\Support\Env;
  * Dispatch a command to its appropriate handler in the current process.
  *
  * @param  mixed  $job
- * @param  mixed  $handler
+ * @param  mixed|null  $handler
  * @return mixed
  */
-function dispatch_now($job, $handler = null)
+function dispatch_now(mixed $job, mixed $handler = null): mixed
 {
     return Container::getInstance()->make(Dispatcher::class)->dispatchNow($job, $handler);
 }
@@ -22,10 +22,10 @@ function dispatch_now($job, $handler = null)
  * Gets the value of an environment variable.
  *
  * @param  string  $key
- * @param  mixed  $default
+ * @param  mixed|null  $default
  * @return mixed
  */
-function env($key, $default = null)
+function env(string $key, mixed $default = null): mixed
 {
     return Env::get($key, $default);
 }

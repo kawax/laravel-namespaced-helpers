@@ -13,6 +13,6 @@ class TraitsTest extends TestCase
             $mock->shouldReceive('dispatchNow')->once()->andReturn('test');
         });
 
-        $this->assertSame('test', TestJob::dispatchNowAndReturn());
+        $this->assertSame('test', TestJob::dispatchNow());
     }
 }

@@ -12,7 +12,7 @@ trait DispatchNow
      *
      * @return mixed
      */
-    public static function dispatchNowAndReturn()
+    public static function dispatchNow(): mixed
     {
         return Container::getInstance()->make(Dispatcher::class)->dispatchNow(new static(...func_get_args()));
     }
