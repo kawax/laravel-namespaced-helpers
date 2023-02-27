@@ -16,8 +16,13 @@ Another way to avoid `env()` conflicts.
 - Support only latest major version (`master` branch), but you can PR to old branches.
 
 ## Installation
-```
+```shell
 composer require revolution/laravel-namespaced-helpers
+```
+
+### Uninstall
+```shell
+composer remove revolution/laravel-namespaced-helpers
 ```
 
 ## Usage
