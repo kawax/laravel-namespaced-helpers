@@ -9,8 +9,6 @@ trait DispatchNow
 {
     /**
      * Dispatch a command to its appropriate handler in the current process.
-     *
-     * @return mixed
      */
     public static function dispatchNow(): mixed
     {

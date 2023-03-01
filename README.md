@@ -43,6 +43,7 @@ return [
 ```
 
 ### dispatch_now()
+`dispatch_now()` was removed in Laravel 10. If you want to use it to get a return value from a job class, you can use this.
 
 ```php
 <?php

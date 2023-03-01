@@ -4,14 +4,14 @@ namespace Tests;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
             //
         ];
     }
 
-    protected function getPackageAliases($app)
+    protected function getPackageAliases($app): array
     {
         return [
             //
@@ -24,7 +24,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
      * @param  \Illuminate\Foundation\Application  $app
      * @return void
      */
-    protected function getEnvironmentSetUp($app)
+    protected function defineEnvironment($app): void
     {
         //
     }
