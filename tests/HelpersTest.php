@@ -4,6 +4,7 @@ namespace Tests;
 
 use Illuminate\Contracts\Bus\Dispatcher;
 use Mockery\MockInterface;
+
 use function Revolution\Illuminate\Support\dispatch_now;
 use function Revolution\Illuminate\Support\env;
 
