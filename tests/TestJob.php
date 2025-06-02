@@ -7,5 +7,5 @@ use Revolution\Illuminate\Support\DispatchNow;
 
 class TestJob
 {
-    use DispatchNow, Dispatchable;
+    use Dispatchable, DispatchNow;
 }
