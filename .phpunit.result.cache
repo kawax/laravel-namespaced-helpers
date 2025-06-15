@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Tests\\HelpersTest::test_env":0.086,"Tests\\HelpersTest::test_dispatch_now":0.008,"Tests\\TraitsTest::test_dispatch_now":0.004}}
